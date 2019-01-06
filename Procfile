@@ -1,1 +1,1 @@
-web: gunicorn folio:folio
+web: gunicorn folio:app
