@@ -1,0 +1,71 @@
+.content{
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    background: url(https://cdn.pixabay.com/photo/2015/04/20/13/17/work-731198__340.jpg);
+    background-size: cover; 
+    background-position: center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: white;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 4em;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 2em;
+}
+
+.navbar{
+	background-color: rgb(150,150,150)
+}
+
+.academic{
+	width: 100px;
+	height: 50px;
+}
+
+.tag{
+	font-weight: 150;
+}
+
+.form-control:focus {
+    border-color: #ddd;    
+    box-shadow: inset 0 0 0 rgba(0,0,0,0), 0 0 0 rgba(0,0,0,0);
+    }
+
+   @media only screen and (max-width: 992px) {
+    #fadeshow1 {
+        display: none;
+    }
+    .jumbotron{
+    	margin-left:15%;
+
+    }
+    .fish{
+   	margin-left:3%;
+   }
+}
+.insta{
+		margin-left:11%;
+		margin-top: 5%;
+	}
+.fish
+	{
+		position: absolute;
+		top: 60px;
+		left: 80px;
+		width:60%;
+		margin-left:5%;
+margin-top:2%;
+		height:300px;
+
+	}
