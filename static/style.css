@@ -6,10 +6,6 @@
     margin-top:8%;
 }
 
-.btn{
-    width:100%;
-    text-align:center; 
-}
 
 .content{
 	text-align: center;
@@ -82,10 +78,3 @@ margin-top:2%;
 		height:300px;
 
 	}
-#myfooter{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-
-}
