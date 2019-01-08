@@ -10,7 +10,9 @@
 	<title>My Portfolio</title>
 </head>
 <body>
-    <nav class="nav navbar-inverse">
+
+
+<nav class="nav navbar-inverse">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -38,8 +40,7 @@
             <li><a href="#">JavaScript</a></li>
             <li><a href="#">Bootstrap</a></li>
             <li><a href="#">jQuery</a></li>
-
-            </ul>
+          </ul>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -50,7 +51,7 @@
   </div>
  </nav>
  
- <div class="container">
+<div class="container">
  	<div class="row">
  		<div class="col-lg-12">
  			<div class="content">
@@ -61,12 +62,15 @@
  			</div>
  		</div>
  	</div>
- </div>
+</div>
 
 <div class="container">
-      	<h3>  ACADEMIC PROFILE <i class="fa fa-graduation-cap"></i></h3>
-      	<hr style="color: black;">
+    <h3>  ACADEMIC PROFILE <i class="fa fa-graduation-cap"></i></h3>
+      <hr style="color: black;">
       	<div class="row">
+
+
+
       		<div class="col-sm-12 col-md-4">
       			<div class="thumbnail">
       				<img src="https://www.clipartmax.com/png/middle/175-1759093_results-2015-1st-3rd-5th-semester-rajasthan-diploma-mangalore-university-b-com.png" class="Academic">
@@ -74,73 +78,63 @@
       					<h3>Higher Secondary Results</h3>
       					<p class="tag">P.S.: Maths mein 99 the ;)</p>
       					<p><a href="{{url_for('page1')}}" class="btn btn-primary" role="button" >Details</a></p>
- </div>
- </div>
-
-       </div>
-       <div class="col-sm-12 col-md-4">
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
       			<div class="thumbnail">
       				<img src="https://www.clipartmax.com/png/middle/175-1759093_results-2015-1st-3rd-5th-semester-rajasthan-diploma-mangalore-university-b-com.png" class="Academic">
       				<div class="caption">
       					<h3>1st Sem Result</h3>
       					<p class="tag">Ab college mein kaun padhta hai yrr (-_-)</p>
       				<p><a href="{{url_for('page2')}}" class="btn btn-primary" role="button" >Details</a></p>
- </div>
- </div>
+              </div>
+            </div>
+          </div>
 
-       </div>
-
-       <div class="col-sm-12 col-md-4">
+          <div class="col-sm-12 col-md-4">
       			<div class="thumbnail">
       				<img src="https://www.clipartmax.com/png/middle/175-1759093_results-2015-1st-3rd-5th-semester-rajasthan-diploma-mangalore-university-b-com.png" class="Academic">
       				<div class="caption">
       					<h3>2nd Sem Results</h3>
       					<p class="tag">Class Rank 1 (*_*)</p>
       					<p><a href="{{url_for('page3')}}" class="btn btn-primary" role="button" >Details</a></p>
- </div>
- </div>
-
-       </div>
-   </div>
+              </div>
+            </div>
+          </div>
+        </div>
 </div>
 
 
-<div>
-  <div class="row">
-<div class="col-lg-4 col-md-4 col-xs-12"  ></div>
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-xs-12"  ></div>
 
-<div class="col-lg-4 col-md-4 col-xs-12" style="padding-left: 20px;">
-	<div class="jumbotron" class="thumbnail" style="background-color: rgb(211,211,211);">
-		<p style="text-align: center;"><strong>Suggestion Box</strong></p>
-		<p style="font-size: 17px; text-align: center;">If you have any suggestions or words of appreciation...Here you go</p>
-		<hr class="line">
-<form class="container">
+    <div class="col-lg-4 col-md-4 col-xs-12" style="padding-left: 20px;">
+	    <div class="jumbotron" class="thumbnail" style="background-color: rgb(211,211,211);">
+		  <p style="text-align: center;"><strong>Suggestion Box</strong></p>
+		  <p style="font-size: 17px; text-align: center;">If you have any suggestions or words of appreciation...Here you go</p>
+		  <hr class="line">
+      <form class="container">
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control"  placeholder="Full Name">
+        </div>
+        <div class="form-group">
+          <input type="number" class="form-control"  placeholder="Mobile-Number">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control"  placeholder="Suggestions">
+        </div>
+      </form>
+      <p style="text-align: center;"><a class="btn btn-primary" href="#" role="button"> Submit </a> </p>
+      <p style="font-size: 17px;text-align: center;margin-top:10px;">Thanks for your valueble time</p>
+      </div>
+    </div>
 
-  <div class="form-group">
-    <input type="email" class="form-control" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <input type="text" class="form-control"  placeholder="Full Name">
-  </div>
-  <div class="form-group">
-    <input type="number" class="form-control"  placeholder="Mobile-Number">
-  </div>
-  <div class="form-group">
-    <input type="text" class="form-control"  placeholder="Suggestions">
-  </div>
-  
-</form>
-
-<p style="text-align: center;"><a class="btn btn-primary" href="#" role="button"> Submit </a> </p>
-<p style="font-size: 17px;text-align: center;margin-top:10px;">Thanks for your valueble time</p>
-
+    <div class="col-lg-4 col-md-4 col-xs-12"  ></div>
 </div>
-</div>
-
-<div class="col-lg-4 col-md-4 col-xs-12"  ></div>
-</div>
-</div>
-
 
 <footer class="page-footer font-small cyan darken-3" style="background: black; height: 200px; width: 100%;">
     <div class="container">
@@ -150,7 +144,7 @@
           <div class="mb-5 flex-center">
             <h3 style="font-style: italic; color: white; padding-left: 20px;"> Connect with me: </h3>
             <br>
-            <a class="fb-ic" style="padding-left: 10px;" href="#">
+            <a class="fb-ic" style="padding-left: 10px;" href="https://www.facebook.com/ekta.mishra.969952">
               <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
             <a class="tw-ic" style="padding-left: 10px;" href="#">
@@ -159,10 +153,10 @@
             <a class="gplus-ic" style="padding-left: 10px;" href="#">
               <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
-            <a class="li-ic" style="padding-left: 10px;" href="#">
+            <a class="li-ic" style="padding-left: 10px;" href="https://www.linkedin.com/in/ekta-mishra-6b9854177/">
               <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
-            <a class="ins-ic" style="padding-left: 10px;" href="#">
+            <a class="ins-ic" style="padding-left: 10px;" href="https://www.instagram.com/ekta_mishra1999/">
               <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
             <a class="pin-ic" style="padding-left: 10px;" href="#">
