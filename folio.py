@@ -24,6 +24,10 @@ def page2():
 def page3():
 	return render_template('page3.html')
 
+@app.route('/explore')
+def explore():
+	return render_template('explore.html')
+
 
 if __name__ == "__main__":
 	app.run(port = 8000, debug = True)

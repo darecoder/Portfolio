@@ -2,11 +2,11 @@
 <html>
 <head>
 
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
 	<title>My Portfolio</title>
 </head>
 <body>
@@ -58,56 +58,59 @@
  				<h1>Ms. Ekta <i class="fa fa-grin-hearts"></i></h1>
  				<h3>"Developer from heart ... Programmer with Brain"</h3>
  				<hr>
- 				<button class="btn btn-success btn-lg">Explore More</button>
+ 				<a class="btn btn-success btn-lg" href="{{url_for('explore')}}">Explore More</a>
  			</div>
  		</div>
  	</div>
 </div>
 
-<div class="container">
-    <h3>  ACADEMIC PROFILE <i class="fa fa-graduation-cap"></i></h3>
-      <hr style="color: black;">
-      	<div class="row">
+<hr style="color: black;">
 
-
-
-      		<div class="col-sm-12 col-md-4">
-      			<div class="thumbnail">
-      				<img src="https://www.clipartmax.com/png/middle/175-1759093_results-2015-1st-3rd-5th-semester-rajasthan-diploma-mangalore-university-b-com.png" class="Academic">
-      				<div class="caption">
-      					<h3>Higher Secondary Results</h3>
-      					<p class="tag">P.S.: Maths mein 99 the ;)</p>
-      					<p><a href="{{url_for('page1')}}" class="btn btn-primary" role="button" >Details</a></p>
+<div class="container">  
+  <p> 
+  <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    ACADEMIc PROFILE <i class="fa fa-graduation-cap"></i>
+   </a>
+  </p>
+  
+  <div class="collapse" id="collapseExample">
+      <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <div class="thumbnail">
+              <img src="https://www.clipartmax.com/png/middle/175-1759093_results-2015-1st-3rd-5th-semester-rajasthan-diploma-mangalore-university-b-com.png" class="Academic">
+              <div class="caption">
+                <h3>Higher Secondary Results</h3>
+                <p class="tag">P.S.: Maths mein 99 the ;)</p>
+                <p><a href="{{url_for('page1')}}" class="btn btn-primary" role="button" >Details</a></p>
               </div>
             </div>
           </div>
           <div class="col-sm-12 col-md-4">
-      			<div class="thumbnail">
-      				<img src="https://www.clipartmax.com/png/middle/175-1759093_results-2015-1st-3rd-5th-semester-rajasthan-diploma-mangalore-university-b-com.png" class="Academic">
-      				<div class="caption">
-      					<h3>1st Sem Result</h3>
-      					<p class="tag">Ab college mein kaun padhta hai yrr (-_-)</p>
-      				<p><a href="{{url_for('page2')}}" class="btn btn-primary" role="button" >Details</a></p>
+            <div class="thumbnail">
+              <img src="https://www.clipartmax.com/png/middle/175-1759093_results-2015-1st-3rd-5th-semester-rajasthan-diploma-mangalore-university-b-com.png" class="Academic">
+              <div class="caption">
+                <h3>1st Sem Result</h3>
+                <p class="tag">Ab college mein kaun padhta hai yrr (-_-)</p>
+              <p><a href="{{url_for('page2')}}" class="btn btn-primary" role="button" >Details</a></p>
               </div>
             </div>
           </div>
-
           <div class="col-sm-12 col-md-4">
-      			<div class="thumbnail">
-      				<img src="https://www.clipartmax.com/png/middle/175-1759093_results-2015-1st-3rd-5th-semester-rajasthan-diploma-mangalore-university-b-com.png" class="Academic">
-      				<div class="caption">
-      					<h3>2nd Sem Results</h3>
-      					<p class="tag">Class Rank 1 (*_*)</p>
-      					<p><a href="{{url_for('page3')}}" class="btn btn-primary" role="button" >Details</a></p>
+            <div class="thumbnail">
+              <img src="https://www.clipartmax.com/png/middle/175-1759093_results-2015-1st-3rd-5th-semester-rajasthan-diploma-mangalore-university-b-com.png" class="Academic">
+              <div class="caption">
+                <h3>2nd Sem Results</h3>
+                <p class="tag">Class Rank 1 (*_*)</p>
+                <p><a href="{{url_for('page3')}}" class="btn btn-primary" role="button" >Details</a></p>
               </div>
             </div>
           </div>
         </div>
-</div>
-
+    </div>
+  </div>
 
 <div class="row">
-    <div class="col-lg-4 col-md-4 col-xs-12"  ></div>
+    <div class="col-lg-4 col-md-4 col-xs-4"  ></div>
 
     <div class="col-lg-4 col-md-4 col-xs-12" style="padding-left: 20px;">
 	    <div class="jumbotron" class="thumbnail" style="background-color: rgb(211,211,211);">
@@ -147,10 +150,10 @@
             <a class="fb-ic" style="padding-left: 10px;" href="https://www.facebook.com/ekta.mishra.969952">
               <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
-            <a class="tw-ic" style="padding-left: 10px;" href="#">
+            <a class="tw-ic" style="padding-left: 10px;" href="https://twitter.com/Ektamis98623067">
               <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
-            <a class="gplus-ic" style="padding-left: 10px;" href="#">
+            <a class="gplus-ic" style="padding-left: 10px;" href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXFBjtvWHjzlmFjGjrpHTqBZTRMflhqPJjNqRczHkcrQvKjrkPJTPQdsfRpmdRWZpDrXt">
               <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
             <a class="li-ic" style="padding-left: 10px;" href="https://www.linkedin.com/in/ekta-mishra-6b9854177/">
